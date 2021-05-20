@@ -1,10 +1,7 @@
 package com.sda.model;
 
-import javax.persistence.*;
-
-@Entity
-@Table(name = "fermieri")
 public class Fermier {
+<<<<<<< HEAD
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -72,4 +69,6 @@ public class Fermier {
                 ", email='" + email + '\'' +
                 '}';
     }
+=======
+>>>>>>> 9074901824313d1d58960cd74048072802ccf6e7
 }
