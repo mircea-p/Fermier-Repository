@@ -1,5 +1,10 @@
 package com.sda.utils;
 
+<<<<<<< HEAD
+=======
+import com.sda.model.Arendator;
+import com.sda.model.Fermier;
+>>>>>>> c436ee8c2d6d8a13119e23c8eab94f670c3397b1
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
@@ -28,7 +33,7 @@ public class SessionManager extends AbstractSessionManager
     {
 
         configuration.addAnnotatedClass(Fermier.class);
-//        configuration.addAnnotatedClass(Reservation.class);
+       configuration.addAnnotatedClass(Arendator.class);
 //        configuration.addAnnotatedClass(Seat.class);
 //        configuration.addAnnotatedClass(Account.class);
 
