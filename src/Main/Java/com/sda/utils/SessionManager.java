@@ -1,5 +1,6 @@
 package com.sda.utils;
 
+import com.sda.model.Arendator;
 import com.sda.model.Fermier;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -33,7 +34,7 @@ public class SessionManager extends AbstractSessionManager
     {
 
         configuration.addAnnotatedClass(Fermier.class);
-//        configuration.addAnnotatedClass(Reservation.class);
+       configuration.addAnnotatedClass(Arendator.class);
 //        configuration.addAnnotatedClass(Seat.class);
 //        configuration.addAnnotatedClass(Account.class);
 
