@@ -1,10 +1,9 @@
 package com.sda.utils;
 
-<<<<<<< HEAD
-=======
+
 import com.sda.model.Arendator;
 import com.sda.model.Fermier;
->>>>>>> c436ee8c2d6d8a13119e23c8eab94f670c3397b1
+
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
