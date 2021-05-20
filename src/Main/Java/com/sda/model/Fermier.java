@@ -63,6 +63,7 @@ public class Fermier {
     }
 
     @Override
+    
     public String toString() {
         return "Fermier{" +
                 "fermierId=" + fermierId +
